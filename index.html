@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Global Terrorism | Zhi Kai Teo</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <!-- Import vega-embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- custom style -->
+  <style>
+    *{
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    h1{
+      font-weight: 1000;
+    }
+     body{
+       background-color: lightgray;
+     }
+     .page{
+       width: 1115px;    
+       background-color: white;   
+       margin: auto;
+       padding: 40px;
+       padding-left: 60px;
+      padding-right: 65px;
+       padding-top: 37px;
+    }
+    .vis-container{
+      width: 100%;
+    }
+    .description h2, h1{
+      margin-top:0px;
+    }
+    .description-right {
+      padding-left: 25px;
+    }
+    .description-left{
+      padding-right: 25px;
+    }
+    .pure-g{
+      margin-bottom: 10px;
+    }
+    .small-font{
+        font-size: 14px;
+    }
+    
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+    
+  </style>
+</head>
+<body>
+
+ <div class="page">
+
+   <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1 style="font-size:270%;text-align:center;font-family:Times New Roman;"> Global Terrorism (2007 - 2017)</h1>
+        <h2 style="font-size:180%;font-family:Times New Roman;"> Introduction</h2>
+       <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+        As incidents of terrorism have increased in the past decade, the phenomenon of terrorism has become of concern to governments and of increasing interest to scholars. 
+          The term "terrorism" has no precise or widely-accepted definition. The problem of defining terrorism is compounded by the fact that terrorism has recently become a fad word 
+          often applied to a variety of acts of violence which are not strictly terrorism. The visualisation will show global terrorist events ................. </p>
+        <p style="font-size:100%;text-align:justify;font-family:Helvetica;">
+        - (Jenkins, B., 1980)</p>
+       <br>
+        <br>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+
+   
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        
+      </div>
+    </div>
+  <!-- end pure grid group -->
+      
+       <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+      </div>
+    </div>
+  <!-- end pure grid group -->
+   
+   
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+          <h2 style="font-size:180%;font-family:Times New Roman;">Trend of Crime Rate</h2>
+          <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+          Line chart shows the total crime cases over the world from 2003 to 2011. We can see that the <b>overall trend </b>of total crime cases <b>increased</b>. 
+            From 2003 to 2007, there is an obvious increasing trend, followed by a plateau over 2007 to 2010. Then, it decreases from 2010
+            to 2011. </p>
+        
+          <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+          Note that the total cases depending on the data collected from Data World (2020). There are some missing data 
+            for some countries due to data limitations. Therefore, total crime cases varies with countries.</p>
+          <br>
+          <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+          If you want to know the total crime cases specifically in each year, tooltip is available.</p>
+      
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="vis1"  class="vis-container"></div>
+      </div>
+    
+    </div>
+  
+   
+   
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h2 style="font-size:180%;font-family:Times New Roman;"> Comparing Crime Rate among Countries</h2>
+        <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+        Below shows a map and bar chart on the crime rate per 10,000 population of different countries. Bar chart is created to show the 
+          difference in rank of the crime rate of the countries. From the map, we can see that <b>Sweden</b> has the<b> highest crime rate</b> compared to 
+          other countries from 2003-2011. Note that there are missing data for some countries due to data limitations. The bar chart is inspired by Ali (n.d.).</p>
+   
+        <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+        There is a filter option (scroller) for reader to explore on the minimum crime rate of different countries along with countries filter. Please note 
+          that only some popular countries are able to be filtered using the country selection filter option. The name of the countries can be referred from the map.</p>
+
+        <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+        As it may be difficult to tell Sweden has the highest crime rate on the map, a bar chart is created to ease reader to find out the country 
+          with the highest crime rate which is Sweden. There is also be a filter option at the bottom of the bar chart for reader to explore more on crime rate 
+          per 10,000 population by Continent.</p>
+         <br>
+         
+          
+      </div>
+    </div>
+  <!-- end pure grid group -->
+   
+
+        <div class="pure-g">
+        <div class="pure-u-3-5">
+              <div id="vis2"  class="vis-container"></div>
+      
+        </div>
+   <div class="pure-u-2-5">
+     
+   <div> 
+   <div> 
+     <iframe src="https://wenqii09.github.io/FIT3179/" style="width:461px;height:615px;border:2px solid black #add">
+       # document
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+              /* width /
+              ::-webkit-scrollbar {
+                width: 10px;
+              }
+
+              / Track /
+              ::-webkit-scrollbar-track {
+                background: #f1f1f1; 
+              }
+
+              / Handle /
+              ::-webkit-scrollbar-thumb {
+                background: #888; 
+              }
+
+              / Handle on hover */
+              ::-webkit-scrollbar-thumb:hover {
+                background: #555; 
+              }
+
+           </style>
+         </head>
+
+    </html>
+  </iframe>
+  
+    </div>
+     </div>
+ </div>
+ </div>
+    <!-- end pure grid group -->
+   
+   
+ <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p></p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+   
+   
+       <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p></p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+       
+ 
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p></p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+   
+    
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+          <h2 style="font-size:180%;font-family:Times New Roman;"> Crime Type committed in Sweden</h2>
+          
+          <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+          The top bar chart on the right shows the type of crime committed in Sweden over years. The bottom bar chart shows the total number of crimes 
+            committed for each category or type over years. </p>
+        <br>
+          <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+          From the bar chart, we can see that <b>2003</b> has the<b> highest</b> total number of cases in Sweden compared to the rest. 
+            In terms of crime type (second bar chart), the category "stealing" has the highest total count compared to the rest of the category.</p>
+          <br>
+          <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+            This is visualisation is inspired by Plotly (n.d.). </p>
+        
+   
+          <br>  
+          <br>
+          <br>  
+          <br>
+          <br>  
+          <br>
+          <br>
+                 <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+          If you would like to explore the data further, <b>click</b> on the the category (crime type) you would like <b>to explore</b> of the bar chart below to see the how
+            each crime changes over years. You will be able to explore the total crime committed for each category over years. </p>
+     
+           <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+          ------------------------------- <b>Click this bar chart </b> -------------------------------> </p>
+          
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="vis4"  class="vis-container"></div>
+      </div>
+    
+    </div>
+
+   
+   
+       <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p></p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+       
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p></p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+   
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p></p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+   
+   
+     <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+          <h2 style="font-size:180%;font-family:Times New Roman;"> Age & Gender of Victims in Sweden</h2>
+          <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+          Stacked bar  chart on the right shows the age and gender of the victim. We can see that <b>age</b> group <b>16-24 </b>has the <b>most</b> victim among all 
+            age group, followed by 25-44, 45-64 and 65-84 by comparing the total percentage.</p>
+          <br>
+          <p style="font-size:110%;text-align:justify;font-family:Helvetica;">
+          Both graph and data are inspired and retrieved from Brå (2020) respectively. Looking into all 4 different age group, surprisingly, 
+            <b>male</b> has the <b>more victims</b> compared to female in Sweden from 2003 to 2011.</p>
+          
+      
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="vis5"  class="vis-container"></div>
+      </div>
+    
+    </div>
+   
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p></p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p></p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+    
+   <div class="pure-g">
+      <div class="pure-u-1-1 small-font">
+        <h2 style="font-size:150%;font-family:Times New Roman;"> References</h2>
+        <p style="font-size:85%;font-family:Helvetica;">
+          Ali, T. (n.d.). How to Create a Bar Chart in Excel [Bar Chart]. Retrieved from https://www.displayr.com/how-to-create-a-bar-chart-in-excel/ 
+          <br>
+            </p>
+            
+            <p style="font-size:85%;font-family:Helvetica;">
+          Brå. (2020). Crime and statistics [Bar Chart]. Retrieved from https://www.bra.se/bra-in-english/home/crime-and-statistics/violence-and-assault.html
+          <br>
+          </p>
+        
+        <p style="font-size:85%;font-family:Helvetica;">
+          Data World. (2019). Crime Trends and Operations of Criminal Justice Systems UN-CTS Sexual Violence [Data file]. Retrieved from https://data.world/unodc/df4192ba-d4aa-4355-b9c5-923fd4049930/workspace/file?filename=crime-trends-and-operations-of-criminal-justice-systems-un-cts-csv-1.csv 
+          <br>
+            </p>
+            
+            <p style="font-size:85%;font-family:Helvetica;">
+          Dragani, R. (2018). The advantages of Bar Graph. Retrieved from https://sciencing.com/make-compound-bar-graph-7783195.html
+          <br>
+        </p>
+        
+        <p style="font-size:85%;font-family:Helvetica;">
+          GIS Geography. (2020). Choropleth Maps – A Guide to Data Classification. Retrieved from https://gisgeography.com/choropleth-maps-data-classification/
+           <br>
+            </p>
+            
+            <p style="font-size:85%;font-family:Helvetica;">
+          Kaggle. (2020). Swedish Crime Rates [Data file]. Retrieved from https://www.kaggle.com/mguzmann/swedishcrime
+          <br>
+          </p>
+        
+        <p style="font-size:85%;font-family:Helvetica;">
+          Plotly. (n.d.). Crime Index rate offences [Stacked Bar Chart]. Retrieved from https://chart-studio.plotly.com/~TruckeeMeadowsTomorrow/1422.embed
+          <br>
+        </p>
+            
+       </div>
+    </div>
+          
+   <div class="pure-g">
+      <div class="pure-u-1-1 small-font">
+        <p>This visualisation is created by <a href="https://github.com/wenqii09" target="_blank">Wen Qii Teo</a>. The datasource is <a href="#"" target="_blank">Data World</href>.</p>
+       </div>
+    </div>
+  
+
+  </div> <!-- end page -->
+   
+          
+          
+          
+<script type="text/javascript">
+  var specVis1 = "js/line_chart_year.json";
+  var specVis2= "js/filter_map.json";
+  var specVis3= "js/bar_rank.json";
+  var specVis4= "js/interactive.json";
+  var specVis5= "js/stacked_bar_age.json";
+  
+  vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+   vegaEmbed('#vis2', specVis2, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#vis4', specVis4, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  vegaEmbed('#vis5', specVis5, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+</script>
+</body> 
+</html>
