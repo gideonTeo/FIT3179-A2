@@ -1,14 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Scatter Plot of Global Terrorism Statistics by Continent and Year.",
-  "data": {"url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/continent.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/fatal.csv"},
   "width": 800,
   "height": 500,
   "layer": [
     {
       "transform": [
-        {"filter": {"field": "country", "equal": "Afghanistan"}},
-        {"filter": {"param": "year"}}
+        {"filter": {"field": "Country", "equal": "Afghanistan"}},
+        {"filter": {"param": "Year"}}
       ],
       "mark": {
         "type": "text",
@@ -17,7 +17,7 @@
         "y": 250,
         "opacity": 0.06
       },
-      "encoding": {"text": {"field": "year"}}
+      "encoding": {"text": {"field": "Year"}}
     },
     {
       "transform": [
@@ -40,80 +40,59 @@
       ],
       "encoding": {
         "x": {
-          "field": "Terrorism Count",
+          "field": "Successful Attack",
           "type": "quantitative",
-          "scale": {"domain": [0, 9]},
-          "axis": {"tickCount": 5, "title": "terrorism count"}
+          "scale": {"domain": [0, 4000]},
+          "axis": {"tickCount": 5, "title": "success attack"}
         },
         "y": {
-          "field": "Fatalities",
+          "field": "Total.No..of.Fatalities",
           "type": "quantitative",
-          "scale": {"domain": [20, 85]},
+          "scale": {"domain": [0, 4000]},
           "axis": {"tickCount": 5, "title": "fatalities"}
         }
       },
+
       "layer": [
-        {
-          "mark": {
-            "type": "line",
-            "size": 4,
-            "color": "lightgray",
-            "strokeCap": "round"
-          },
-          "encoding": {
-            "detail": {"field": "country"},
-            "order": {"field": "year"},
-            "opacity": {
-              "condition": {
-                "test": {"or": [
-                  {"param": "hovered", "empty": false},
-                  {"param": "clicked", "empty": false}
-                ]},
-                "value": 0.8
-              },
-              "value": 0
-            }
-          }
-        },
         {
           "params": [
             {
-              "name": "year",
-              "value": [{"year": 1955}],
+              "name": "Year",
+              "value": [{"Year": 2007}],
               "select": {
                 "type": "point",
-                "fields": ["year"]
+                "fields": ["Year"]
               },
               "bind": {
                 "name": "Year",
                 "input": "range",
-                "min": 1955, "max": 2005, "step": 5
+                "min": 2007, "max": 2017, "step": 5
               }
             },
             {
               "name": "hovered",
               "select": {
                 "type": "point",
-                "fields": ["country"],
+                "fields": ["Country"],
                 "toggle": false,
                 "on": "mouseover"
               }
             },
             {
               "name": "clicked",
-              "select": {"type": "point", "fields": ["country"]}
+              "select": {"type": "point", "fields": ["Country"]}
             }
           ],
-          "transform": [{"filter": {"param": "year"}}],
+          "transform": [{"filter": {"param": "Year"}}],
           "mark": {"type": "circle", "size": 100, "opacity": 0.9},
-          "encoding": {"color": {"field": "name", "title": "Region"}}
+          "encoding": {"color": {"field": "name", "title": "Continent"}}
         },
         {
           "transform": [
             {
               "filter": {
                 "and": [
-                  {"param": "year"},
+                  {"param": "Year"},
                   {"or": [
                     {"param": "clicked", "empty": false},
                     {"param": "hovered", "empty": false}
@@ -129,14 +108,14 @@
             "fontWeight": "bold"
           },
           "encoding": {
-            "text": {"field": "country"},
-            "color": {"field": "name", "title": "Region"}
+            "text": {"field": "Country"},
+            "color": {"field": "name", "title": "Continent"}
           }
         },
         {
           "transform": [
             {"filter": {"param": "hovered", "empty": false}},
-            {"filter": {"not": {"param": "year"}}}
+            {"filter": {"not": {"param": "Year"}}}
           ],
           "layer": [
             {
@@ -146,7 +125,7 @@
                 "fontSize": 12,
                 "color": "gray"
               },
-              "encoding": {"text": {"field": "year"}}
+              "encoding": {"text": {"field": "Year"}}
             },
             {"mark": {"type": "circle", "color": "gray"}}
           ]
