@@ -1,0 +1,41 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Global Terrorism trend ",
+    "width": 700,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/continent.csv"
+    },
+    "transform": [
+      {
+        "aggregate": [
+          {"op": "sum", "field": "Terrorism Cases", "as": "Terrorism Case"}
+        ],
+        "groupby": ["Year"]
+      }
+    ],
+    "layer":[{
+      "mark": {"type":"line","point": {
+        "filled": false,
+        "fill": "black"},
+        "tooltip":true},
+      
+        "encoding": {
+        "x": {"field": "Year",
+          "type": "ordinal",
+          "axis": {
+            "grid": false,
+            "labelAngle":-45
+            },
+            "title":"Year"
+          },
+
+        "y": {"field": "Terrorism Case", 
+          "type": "quantitative",
+          "axis": {"grid": false}},
+        "color":{"value":"black"}}
+      }
+    ],
+    "config": {"background":"#fff5e8"}
+  }
+  
