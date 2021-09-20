@@ -1,0 +1,992 @@
+Country,Year,Success.Attack,Total.No..of.Fatalities,Continent
+Afghanistan,2007,341,341,Asia
+Afghanistan,2008,414,414,Asia
+Afghanistan,2009,503,503,Asia
+Afghanistan,2010,542,542,Asia
+Afghanistan,2011,421,421,Asia
+Afghanistan,2012,1469,1469,Asia
+Afghanistan,2013,1443,1443,Asia
+Afghanistan,2014,1824,1824,Asia
+Afghanistan,2015,1928,1928,Asia
+Afghanistan,2016,1617,1617,Asia
+Afghanistan,2017,1414,1414,Asia
+Albania,2009,1,1,Europe
+Albania,2013,1,1,Europe
+Albania,2014,2,2,Europe
+Albania,2015,4,4,Europe
+Albania,2016,2,2,Europe
+Albania,2017,1,1,Europe
+Algeria,2007,124,124,Africa
+Algeria,2008,107,107,Africa
+Algeria,2009,108,108,Africa
+Algeria,2010,100,100,Africa
+Algeria,2011,15,15,Africa
+Algeria,2012,41,41,Africa
+Algeria,2013,22,22,Africa
+Algeria,2014,13,13,Africa
+Algeria,2015,16,16,Africa
+Algeria,2016,9,9,Africa
+Algeria,2017,14,14,Africa
+Angola,2009,1,1,Africa
+Angola,2010,2,2,Africa
+Angola,2016,2,2,Africa
+Angola,2017,6,6,Africa
+Argentina,2009,1,1,Americas
+Argentina,2010,5,5,Americas
+Argentina,2011,1,1,Americas
+Argentina,2012,2,2,Americas
+Argentina,2013,2,2,Americas
+Argentina,2014,1,1,Americas
+Argentina,2015,1,1,Americas
+Argentina,2016,2,2,Americas
+Argentina,2017,3,3,Americas
+Armenia,2007,1,1,Asia
+Armenia,2009,1,1,Asia
+Armenia,2013,1,1,Asia
+Armenia,2015,2,2,Asia
+Armenia,2016,2,2,Asia
+Australia,2008,3,3,Oceania
+Australia,2009,1,1,Oceania
+Australia,2010,1,1,Oceania
+Australia,2013,1,1,Oceania
+Australia,2014,8,8,Oceania
+Australia,2015,14,14,Oceania
+Australia,2016,9,9,Oceania
+Australia,2017,4,4,Oceania
+Austria,2007,1,1,Europe
+Austria,2008,7,7,Europe
+Austria,2009,3,3,Europe
+Austria,2011,1,1,Europe
+Austria,2013,1,1,Europe
+Austria,2016,3,3,Europe
+Austria,2017,1,1,Europe
+Azerbaijan,2007,1,1,Asia
+Azerbaijan,2008,2,2,Asia
+Azerbaijan,2009,2,2,Asia
+Azerbaijan,2014,3,3,Asia
+Azerbaijan,2016,2,2,Asia
+Azerbaijan,2017,2,2,Asia
+Bahamas,2013,1,1,Americas
+Bahrain,2008,1,1,Asia
+Bahrain,2010,2,2,Asia
+Bahrain,2011,1,1,Asia
+Bahrain,2012,26,26,Asia
+Bahrain,2013,52,52,Asia
+Bahrain,2014,42,42,Asia
+Bahrain,2015,18,18,Asia
+Bahrain,2016,3,3,Asia
+Bahrain,2017,21,21,Asia
+Bangladesh,2007,9,9,Asia
+Bangladesh,2008,19,19,Asia
+Bangladesh,2009,27,27,Asia
+Bangladesh,2010,22,22,Asia
+Bangladesh,2011,13,13,Asia
+Bangladesh,2012,18,18,Asia
+Bangladesh,2013,139,139,Asia
+Bangladesh,2014,130,130,Asia
+Bangladesh,2015,469,469,Asia
+Bangladesh,2016,88,88,Asia
+Bangladesh,2017,41,41,Asia
+Belarus,2008,1,1,Europe
+Belarus,2010,2,2,Europe
+Belarus,2011,1,1,Europe
+Belarus,2012,3,3,Europe
+Belgium,2007,1,1,Europe
+Belgium,2009,1,1,Europe
+Belgium,2012,1,1,Americas
+Belgium,2014,2,2,Africa
+Belgium,2016,6,6,Asia
+Belgium,2017,3,3,Asia
+Belize,2013,1,1,Asia
+Benin,2007,1,1,Americas
+Bhutan,2008,3,3,Americas
+Bhutan,2011,1,1,Americas
+Bhutan,2014,1,1,Europe
+Bolivia,2007,3,3,Europe
+Bolivia,2009,3,3,Europe
+Bolivia,2012,1,1,Europe
+Bosnia-Herzegovina,2007,2,2,Europe
+Bosnia-Herzegovina,2008,4,4,Europe
+Bosnia-Herzegovina,2009,1,1,Europe
+Bosnia-Herzegovina,2010,1,1,Europe
+Bosnia-Herzegovina,2011,1,1,Americas
+Bosnia-Herzegovina,2013,1,1,Americas
+Bosnia-Herzegovina,2014,3,3,Americas
+Bosnia-Herzegovina,2015,6,6,Americas
+Brazil,2012,1,1,Americas
+Brazil,2013,3,3,Americas
+Brazil,2014,3,3,Europe
+Brazil,2015,5,5,Europe
+Brazil,2016,2,2,Europe
+Brazil,2017,2,2,Europe
+Bulgaria,2008,2,2,Europe
+Bulgaria,2011,2,2,Europe
+Bulgaria,2012,2,2,Europe
+Bulgaria,2013,3,3,Africa
+Bulgaria,2014,1,1,Africa
+Bulgaria,2015,2,2,Africa
+Bulgaria,2016,1,1,Africa
+Burkina Faso,2013,1,1,Africa
+Burkina Faso,2015,6,6,Africa
+Burkina Faso,2016,10,10,Africa
+Burkina Faso,2017,32,32,Africa
+Burundi,2007,3,3,Africa
+Burundi,2008,7,7,Africa
+Burundi,2010,29,29,Africa
+Burundi,2011,8,8,Africa
+Burundi,2012,4,4,Africa
+Burundi,2013,2,2,Africa
+Burundi,2014,5,5,Europe
+Burundi,2015,102,102,Europe
+Burundi,2016,83,83,Europe
+Burundi,2017,21,21,Europe
+Cambodia,2008,2,2,Asia
+Cambodia,2013,2,2,Asia
+Cameroon,2007,1,1,Africa
+Cameroon,2008,1,1,Africa
+Cameroon,2009,1,1,Africa
+Cameroon,2010,3,3,Africa
+Cameroon,2011,3,3,Africa
+Cameroon,2013,3,3,Africa
+Cameroon,2014,68,68,Africa
+Cameroon,2015,83,83,Africa
+Cameroon,2016,56,56,Africa
+Cameroon,2017,94,94,Africa
+Canada,2008,5,5,Americas
+Canada,2009,4,4,Americas
+Canada,2010,2,2,Americas
+Canada,2012,3,3,Americas
+Canada,2013,4,4,Americas
+Canada,2014,3,3,Americas
+Canada,2015,5,5,Americas
+Canada,2016,6,6,Americas
+Canada,2017,12,12,Americas
+Central African Republic,2007,1,1,Africa
+Central African Republic,2008,2,2,Africa
+Central African Republic,2009,5,5,Africa
+Central African Republic,2010,13,13,Africa
+Central African Republic,2011,3,3,Africa
+Central African Republic,2012,4,4,Africa
+Central African Republic,2013,20,20,Africa
+Central African Republic,2014,94,94,Africa
+Central African Republic,2015,48,48,Africa
+Central African Republic,2016,38,38,Africa
+Central African Republic,2017,43,43,Africa
+Chad,2007,7,7,Africa
+Chad,2008,8,8,Africa
+Chad,2009,3,3,Africa
+Chad,2010,1,1,Africa
+Chad,2014,1,1,Africa
+Chad,2015,27,27,Africa
+Chad,2016,5,5,Africa
+Chad,2017,6,6,Africa
+Chile,2007,8,8,Americas
+Chile,2008,4,4,Americas
+Chile,2009,8,8,Americas
+Chile,2010,5,5,Americas
+Chile,2011,6,6,Americas
+Chile,2012,2,2,Americas
+Chile,2013,5,5,Americas
+Chile,2014,17,17,Americas
+Chile,2015,1,1,Americas
+Chile,2016,18,18,Americas
+Chile,2017,12,12,Americas
+China,2008,20,20,Asia
+China,2009,7,7,Asia
+China,2010,1,1,Asia
+China,2011,4,4,Asia
+China,2012,4,4,Asia
+China,2013,12,12,Asia
+China,2014,37,37,Asia
+China,2015,17,17,Asia
+China,2016,5,5,Asia
+China,2017,6,6,Asia
+Colombia,2007,30,30,Americas
+Colombia,2008,133,133,Americas
+Colombia,2009,139,139,Americas
+Colombia,2010,136,136,Americas
+Colombia,2011,94,94,Americas
+Colombia,2012,115,115,Americas
+Colombia,2013,149,149,Americas
+Colombia,2014,231,231,Americas
+Colombia,2015,136,136,Americas
+Colombia,2016,109,109,Americas
+Colombia,2017,117,117,Americas
+Croatia,2008,2,2,Africa
+Croatia,2009,1,1,Africa
+Croatia,2013,2,2,Europe
+Cuba,2007,1,1,Europe
+Cyprus,2007,1,1,Europe
+Cyprus,2012,1,1,Americas
+Cyprus,2013,9,9,Asia
+Cyprus,2014,5,5,Asia
+Cyprus,2015,3,3,Asia
+Cyprus,2016,2,2,Asia
+Czech Republic,2008,2,2,Asia
+Czech Republic,2009,1,1,Asia
+Czech Republic,2011,1,1,Europe
+Czech Republic,2013,1,1,Europe
+Czech Republic,2014,5,5,Europe
+Czech Republic,2015,4,4,Europe
+Czech Republic,2016,2,2,Europe
+Czech Republic,2017,3,3,Europe
+Democratic Republic of the Congo,2007,11,11,Europe
+Democratic Republic of the Congo,2008,20,20,Europe
+Democratic Republic of the Congo,2009,54,54,Europe
+Democratic Republic of the Congo,2010,18,18,Europe
+Democratic Republic of the Congo,2011,16,16,Europe
+Democratic Republic of the Congo,2012,25,25,Europe
+Democratic Republic of the Congo,2013,22,22,Europe
+Democratic Republic of the Congo,2014,110,110,Africa
+Democratic Republic of the Congo,2015,143,143,Africa
+Democratic Republic of the Congo,2016,169,169,Africa
+Democratic Republic of the Congo,2017,143,143,Americas
+Denmark,2008,1,1,Americas
+Denmark,2010,1,1,Americas
+Denmark,2013,1,1,Americas
+Denmark,2015,4,4,Americas
+Denmark,2016,1,1,Americas
+Djibouti,2014,1,1,Americas
+Djibouti,2015,1,1,Americas
+Djibouti,2017,1,1,Americas
+Dominican Republic,2013,1,1,Americas
+Dominican Republic,2014,1,1,Americas
+Dominican Republic,2017,1,1,Africa
+East Timor,2007,2,2,Africa
+East Timor,2008,1,1,Africa
+Ecuador,2008,2,2,Africa
+Ecuador,2009,1,1,Africa
+Ecuador,2011,1,1,Africa
+Ecuador,2012,1,1,Africa
+Ecuador,2013,2,2,Africa
+Ecuador,2015,1,1,Africa
+Ecuador,2016,2,2,Africa
+Ecuador,2017,3,3,Africa
+Egypt,2008,1,1,Africa
+Egypt,2009,2,2,Africa
+Egypt,2010,2,2,Africa
+Egypt,2011,18,18,Africa
+Egypt,2012,49,49,Africa
+Egypt,2013,321,321,Europe
+Egypt,2014,354,354,Europe
+Egypt,2015,647,647,Africa
+Egypt,2016,376,376,Africa
+Egypt,2017,224,224,Africa
+Equatorial Guinea,2009,1,1,Africa
+Eritrea,2007,2,2,Africa
+Eritrea,2008,2,2,Africa
+Eritrea,2009,1,1,Africa
+Eritrea,2010,1,1,Africa
+Eritrea,2011,1,1,Africa
+Estonia,2011,1,1,Africa
+Estonia,2015,2,2,Africa
+Ethiopia,2007,5,5,Europe
+Ethiopia,2008,8,8,Europe
+Ethiopia,2009,2,2,Europe
+Ethiopia,2010,2,2,Europe
+Ethiopia,2011,3,3,Europe
+Ethiopia,2012,3,3,Europe
+Ethiopia,2013,5,5,Europe
+Ethiopia,2014,2,2,Europe
+Ethiopia,2015,7,7,Europe
+Ethiopia,2016,13,13,Europe
+Ethiopia,2017,27,27,Europe
+Finland,2007,1,1,Europe
+Finland,2008,1,1,Europe
+Finland,2015,9,9,Europe
+Finland,2016,3,3,Europe
+Finland,2017,2,2,Europe
+France,2007,16,16,Africa
+France,2008,13,13,Asia
+France,2009,9,9,Asia
+France,2010,3,3,Asia
+France,2011,8,8,Asia
+France,2012,66,66,Asia
+France,2013,18,18,Asia
+France,2014,14,14,Asia
+France,2015,37,37,Asia
+France,2016,26,26,Asia
+France,2017,41,41,Asia
+Gabon,2017,4,4,Europe
+Georgia,2008,33,33,Europe
+Georgia,2009,25,25,Europe
+Georgia,2010,7,7,Europe
+Georgia,2011,3,3,Europe
+Georgia,2012,3,3,Europe
+Georgia,2013,2,2,Europe
+Georgia,2014,2,2,Europe
+Georgia,2015,1,1,Europe
+Georgia,2016,4,4,Europe
+Georgia,2017,1,1,Africa
+Germany,2007,3,3,Africa
+Germany,2008,3,3,Europe
+Germany,2009,4,4,Europe
+Germany,2010,1,1,Europe
+Germany,2011,8,8,Europe
+Germany,2012,5,5,Europe
+Germany,2014,13,13,Europe
+Germany,2015,65,65,Europe
+Germany,2016,44,44,Europe
+Germany,2017,27,27,Europe
+Ghana,2014,1,1,Europe
+Ghana,2016,1,1,Europe
+Greece,2007,15,15,Americas
+Greece,2008,53,53,Americas
+Greece,2009,115,115,Africa
+Greece,2010,49,49,Africa
+Greece,2011,11,11,Africa
+Greece,2012,22,22,Africa
+Greece,2013,54,54,Africa
+Greece,2014,26,26,Americas
+Greece,2015,31,31,Americas
+Greece,2016,31,31,Americas
+Greece,2017,43,43,Americas
+Guatemala,2012,1,1,Americas
+Guatemala,2013,6,6,Americas
+Guinea,2013,2,2,Americas
+Guinea,2015,2,2,Americas
+Guinea,2016,1,1,Americas
+Guinea-Bissau,2009,1,1,Americas
+Guinea-Bissau,2012,1,1,Asia
+Guyana,2008,3,3,Europe
+Guyana,2016,1,1,Europe
+Haiti,2007,2,2,Europe
+Haiti,2016,1,1,Europe
+Honduras,2009,8,8,Europe
+Honduras,2011,1,1,Europe
+Honduras,2013,2,2,Europe
+Honduras,2014,1,1,Asia
+Honduras,2016,1,1,Asia
+Honduras,2017,1,1,Asia
+Hong Kong,2008,1,1,Asia
+Hungary,2008,2,2,Asia
+Hungary,2009,1,1,Asia
+Hungary,2014,1,1,Asia
+Hungary,2015,1,1,Asia
+Hungary,2016,1,1,Asia
+Iceland,2012,1,1,Asia
+Iceland,2014,1,1,Asia
+India,2007,149,149,Asia
+India,2008,534,534,Asia
+India,2009,672,672,Asia
+India,2010,663,663,Asia
+India,2011,645,645,Asia
+India,2012,611,611,Asia
+India,2013,694,694,Asia
+India,2014,860,860,Asia
+India,2015,884,884,Asia
+India,2016,1025,1025,Asia
+India,2017,966,966,Asia
+Indonesia,2007,2,2,Asia
+Indonesia,2008,13,13,Asia
+Indonesia,2009,19,19,Asia
+Indonesia,2010,4,4,Asia
+Indonesia,2011,21,21,Asia
+Indonesia,2012,39,39,Asia
+Indonesia,2013,32,32,Asia
+Indonesia,2014,35,35,Asia
+Indonesia,2015,29,29,Asia
+Indonesia,2016,19,19,Asia
+Indonesia,2017,27,27,Asia
+Iran,2007,9,9,Asia
+Iran,2008,8,8,Asia
+Iran,2009,15,15,Asia
+Iran,2010,14,14,Asia
+Iran,2011,13,13,Asia
+Iran,2012,5,5,Asia
+Iran,2013,11,11,Asia
+Iran,2014,9,9,Asia
+Iran,2015,9,9,Asia
+Iran,2016,10,10,Asia
+Iran,2017,11,11,Asia
+Iraq,2007,1047,1047,Europe
+Iraq,2008,1106,1106,Europe
+Iraq,2009,1137,1137,Europe
+Iraq,2010,1179,1179,Europe
+Iraq,2011,1308,1308,Europe
+Iraq,2012,1437,1437,Europe
+Iraq,2013,2852,2852,Europe
+Iraq,2014,3933,3933,Europe
+Iraq,2015,2751,2751,Europe
+Iraq,2016,3360,3360,Europe
+Iraq,2017,2466,2466,Asia
+Ireland,2007,1,1,Asia
+Ireland,2008,5,5,Asia
+Ireland,2010,4,4,Asia
+Ireland,2011,4,4,Asia
+Ireland,2012,29,29,Asia
+Ireland,2013,27,27,Asia
+Ireland,2014,33,33,Asia
+Ireland,2015,28,28,Asia
+Ireland,2016,15,15,Asia
+Ireland,2017,17,17,Asia
+Israel,2007,53,53,Europe
+Israel,2008,134,134,Europe
+Israel,2009,36,36,Europe
+Israel,2010,14,14,Europe
+Israel,2011,51,51,Europe
+Israel,2012,65,65,Europe
+Israel,2013,37,37,Europe
+Israel,2014,293,293,Europe
+Israel,2015,58,58,Europe
+Israel,2016,50,50,Europe
+Israel,2017,32,32,Africa
+Italy,2008,2,2,Africa
+Italy,2009,4,4,Africa
+Italy,2010,10,10,Africa
+Italy,2011,5,5,Africa
+Italy,2012,10,10,Africa
+Italy,2013,7,7,Africa
+Italy,2014,7,7,Africa
+Italy,2015,5,5,Africa
+Italy,2016,11,11,Americas
+Italy,2017,8,8,Americas
+Ivory Coast,2007,1,1,Americas
+Ivory Coast,2010,7,7,Asia
+Ivory Coast,2011,3,3,Asia
+Ivory Coast,2012,16,16,Asia
+Ivory Coast,2013,4,4,Asia
+Ivory Coast,2014,1,1,Asia
+Ivory Coast,2015,4,4,Asia
+Ivory Coast,2016,1,1,Asia
+Ivory Coast,2017,13,13,Asia
+Jamaica,2007,1,1,Asia
+Jamaica,2014,1,1,Asia
+Jamaica,2017,2,2,Asia
+Japan,2008,3,3,Asia
+Japan,2009,1,1,Asia
+Japan,2013,1,1,Asia
+Japan,2014,5,5,Asia
+Japan,2015,10,10,Asia
+Japan,2016,1,1,Asia
+Jordan,2010,2,2,Asia
+Jordan,2012,2,2,Africa
+Jordan,2013,1,1,Africa
+Jordan,2014,3,3,Africa
+Jordan,2015,4,4,Africa
+Jordan,2016,9,9,Africa
+Jordan,2017,8,8,Africa
+Kazakhstan,2008,1,1,Africa
+Kazakhstan,2011,5,5,Africa
+Kazakhstan,2012,4,4,Africa
+Kazakhstan,2013,4,4,Africa
+Kazakhstan,2016,3,3,Africa
+Kenya,2007,12,12,Asia
+Kenya,2008,11,11,Asia
+Kenya,2009,1,1,Asia
+Kenya,2010,12,12,Asia
+Kenya,2011,42,42,Asia
+Kenya,2012,80,80,Asia
+Kenya,2013,80,80,Asia
+Kenya,2014,115,115,Asia
+Kenya,2015,71,71,Asia
+Kenya,2016,65,65,Asia
+Kenya,2017,97,97,Asia
+Kosovo,2007,5,5,Asia
+Kosovo,2008,11,11,Asia
+Kosovo,2009,1,1,Asia
+Kosovo,2010,1,1,Europe
+Kosovo,2011,1,1,Europe
+Kosovo,2012,4,4,Asia
+Kosovo,2013,6,6,Asia
+Kosovo,2014,4,4,Asia
+Kosovo,2015,2,2,Asia
+Kosovo,2016,8,8,Asia
+Kosovo,2017,8,8,Asia
+Kuwait,2011,1,1,Asia
+Kuwait,2015,1,1,Asia
+Kuwait,2016,2,2,Asia
+Kyrgyzstan,2007,1,1,Asia
+Kyrgyzstan,2010,1,1,Asia
+Kyrgyzstan,2011,1,1,Africa
+Kyrgyzstan,2014,2,2,Africa
+Kyrgyzstan,2015,3,3,Africa
+Kyrgyzstan,2016,4,4,Africa
+Kyrgyzstan,2017,2,2,Africa
+Laos,2012,1,1,Africa
+Laos,2015,2,2,Africa
+Laos,2016,4,4,Africa
+Laos,2017,1,1,Africa
+Latvia,2007,1,1,Africa
+Latvia,2017,1,1,Africa
+Lebanon,2007,18,18,Africa
+Lebanon,2008,58,58,Africa
+Lebanon,2009,14,14,Africa
+Lebanon,2010,5,5,Africa
+Lebanon,2011,10,10,Europe
+Lebanon,2012,15,15,Europe
+Lebanon,2013,121,121,Europe
+Lebanon,2014,204,204,Europe
+Lebanon,2015,44,44,Europe
+Lebanon,2016,41,41,Europe
+Lebanon,2017,23,23,Europe
+Lesotho,2009,1,1,Africa
+Lesotho,2015,1,1,Africa
+Liberia,2008,1,1,Africa
+Liberia,2012,1,1,Africa
+Liberia,2014,1,1,Africa
+Liberia,2017,1,1,Africa
+Libya,2007,1,1,Africa
+Libya,2008,1,1,Asia
+Libya,2011,2,2,Asia
+Libya,2012,57,57,Asia
+Libya,2013,291,291,Asia
+Libya,2014,728,728,Asia
+Libya,2015,543,543,Asia
+Libya,2016,422,422,Asia
+Libya,2017,190,190,Asia
+Macedonia,2007,1,1,Asia
+Macedonia,2008,9,9,Asia
+Macedonia,2009,1,1,Asia
+Macedonia,2012,1,1,Asia
+Macedonia,2014,3,3,Asia
+Macedonia,2015,4,4,Asia
+Macedonia,2017,1,1,Asia
+Madagascar,2009,1,1,Asia
+Madagascar,2011,1,1,Africa
+Madagascar,2012,1,1,Africa
+Madagascar,2013,2,2,Africa
+Madagascar,2014,1,1,Africa
+Madagascar,2016,1,1,Africa
+Malawi,2017,1,1,Africa
+Malaysia,2008,2,2,Africa
+Malaysia,2009,1,1,Africa
+Malaysia,2012,2,2,Africa
+Malaysia,2013,13,13,Africa
+Malaysia,2014,12,12,Africa
+Malaysia,2015,5,5,Europe
+Malaysia,2016,19,19,Europe
+Malaysia,2017,4,4,Europe
+Maldives,2007,1,1,Africa
+Maldives,2008,1,1,Africa
+Maldives,2012,1,1,Africa
+Maldives,2013,3,3,Africa
+Maldives,2014,9,9,Americas
+Maldives,2015,2,2,Americas
+Maldives,2016,1,1,Americas
+Maldives,2017,2,2,Americas
+Mali,2007,5,5,Americas
+Mali,2008,9,9,Americas
+Mali,2009,6,6,Americas
+Mali,2010,1,1,Americas
+Mali,2011,4,4,Americas
+Mali,2012,19,19,Americas
+Mali,2013,58,58,Americas
+Mali,2014,69,69,Europe
+Mali,2015,121,121,Europe
+Mali,2016,99,99,Europe
+Mali,2017,141,141,Africa
+Malta,2014,1,1,Africa
+Malta,2015,1,1,Africa
+Malta,2017,3,3,Africa
+Mauritania,2008,2,2,Africa
+Mauritania,2009,5,5,Africa
+Mauritania,2010,1,1,Africa
+Mauritania,2011,3,3,Africa
+Mexico,2007,10,10,Africa
+Mexico,2008,8,8,Africa
+Mexico,2009,1,1,Asia
+Mexico,2010,5,5,Asia
+Mexico,2011,2,2,Asia
+Mexico,2012,16,16,Asia
+Mexico,2013,8,8,Asia
+Mexico,2014,5,5,Asia
+Mexico,2015,19,19,Asia
+Mexico,2016,5,5,Asia
+Mexico,2017,20,20,Asia
+Moldova,2009,1,1,Asia
+Moldova,2012,1,1,Asia
+Moldova,2016,1,1,Asia
+Montenegro,2007,1,1,Asia
+Montenegro,2013,2,2,Asia
+Montenegro,2015,1,1,Asia
+Morocco,2007,6,6,Asia
+Morocco,2011,1,1,Asia
+Morocco,2015,1,1,Asia
+Mozambique,2007,1,1,Asia
+Mozambique,2012,1,1,Asia
+Mozambique,2013,18,18,Asia
+Mozambique,2014,22,22,Asia
+Mozambique,2015,8,8,Europe
+Mozambique,2016,79,79,Europe
+Mozambique,2017,11,11,Europe
+Myanmar,2007,3,3,Europe
+Myanmar,2008,20,20,Europe
+Myanmar,2009,14,14,Europe
+Myanmar,2010,11,11,Europe
+Myanmar,2011,2,2,Europe
+Myanmar,2012,17,17,Oceania
+Myanmar,2013,18,18,Oceania
+Myanmar,2014,15,15,Oceania
+Myanmar,2015,37,37,Americas
+Myanmar,2016,74,74,Africa
+Myanmar,2017,115,115,Africa
+Nepal,2007,90,90,Africa
+Nepal,2008,120,120,Africa
+Nepal,2009,39,39,Africa
+Nepal,2010,38,38,Africa
+Nepal,2011,46,46,Africa
+Nepal,2012,46,46,Africa
+Nepal,2013,104,104,Africa
+Nepal,2014,7,7,Africa
+Nepal,2015,48,48,Africa
+Nepal,2016,43,43,Africa
+Nepal,2017,247,247,Africa
+Netherlands,2008,1,1,Africa
+Netherlands,2009,1,1,Africa
+Netherlands,2010,1,1,Africa
+Netherlands,2011,2,2,Africa
+Netherlands,2014,1,1,Africa
+Netherlands,2015,3,3,Africa
+Netherlands,2016,6,6,Africa
+Netherlands,2017,1,1,Africa
+New Zealand,2008,5,5,Africa
+New Zealand,2014,1,1,Europe
+New Zealand,2016,1,1,Europe
+Nicaragua,2014,2,2,Europe
+Niger,2007,7,7,Asia
+Niger,2008,9,9,Asia
+Niger,2009,4,4,Asia
+Niger,2010,3,3,Asia
+Niger,2011,2,2,Asia
+Niger,2012,1,1,Asia
+Niger,2013,4,4,Asia
+Niger,2014,5,5,Asia
+Niger,2015,41,41,Asia
+Niger,2016,25,25,Asia
+Niger,2017,13,13,Asia
+Nigeria,2007,61,61,Asia
+Nigeria,2008,76,76,Asia
+Nigeria,2009,42,42,Asia
+Nigeria,2010,63,63,Asia
+Nigeria,2011,175,175,Asia
+Nigeria,2012,616,616,Asia
+Nigeria,2013,346,346,Asia
+Nigeria,2014,714,714,Asia
+Nigeria,2015,638,638,Asia
+Nigeria,2016,533,533,Asia
+Nigeria,2017,484,484,Asia
+Norway,2010,1,1,Americas
+Norway,2011,3,3,Americas
+Norway,2017,1,1,Oceania
+Pakistan,2007,260,260,Oceania
+Pakistan,2008,568,568,Americas
+Pakistan,2009,667,667,Americas
+Pakistan,2010,713,713,Americas
+Pakistan,2011,1012,1012,Americas
+Pakistan,2012,1654,1654,Americas
+Pakistan,2013,2215,2215,Americas
+Pakistan,2014,2151,2151,Americas
+Pakistan,2015,1243,1243,Americas
+Pakistan,2016,864,864,Americas
+Pakistan,2017,719,719,Americas
+Panama,2009,1,1,Americas
+Panama,2016,1,1,Americas
+Papua New Guinea,2007,1,1,Americas
+Papua New Guinea,2017,8,8,Americas
+Paraguay,2010,2,2,Americas
+Paraguay,2011,4,4,Americas
+Paraguay,2012,4,4,Americas
+Paraguay,2013,10,10,Asia
+Paraguay,2014,15,15,Asia
+Paraguay,2015,19,19,Asia
+Paraguay,2016,15,15,Asia
+Paraguay,2017,10,10,Asia
+Peru,2007,4,4,Asia
+Peru,2008,1,1,Asia
+Peru,2009,4,4,Asia
+Peru,2012,6,6,Asia
+Peru,2013,10,10,Asia
+Peru,2014,12,12,Asia
+Peru,2015,10,10,Europe
+Peru,2016,3,3,Europe
+Peru,2017,8,8,Europe
+Philippines,2007,65,65,Europe
+Philippines,2008,276,276,Asia
+Philippines,2009,229,229,Europe
+Philippines,2010,205,205,Europe
+Philippines,2011,151,151,Europe
+Philippines,2012,249,249,Europe
+Philippines,2013,651,651,Europe
+Philippines,2014,597,597,Europe
+Philippines,2015,721,721,Europe
+Philippines,2016,632,632,Europe
+Philippines,2017,692,692,Europe
+Poland,2010,1,1,Europe
+Poland,2016,2,2,Europe
+Poland,2017,1,1,Europe
+Portugal,2011,2,2,Africa
+Qatar,2015,1,1,Africa
+Republic of the Congo,2013,1,1,Africa
+Republic of the Congo,2016,15,15,Africa
+Romania,2008,1,1,Africa
+Russia,2007,51,51,Africa
+Russia,2008,170,170,Africa
+Russia,2009,152,152,Africa
+Russia,2010,251,251,Africa
+Russia,2011,188,188,Asia
+Russia,2012,151,151,Asia
+Russia,2013,144,144,Asia
+Russia,2014,48,48,Asia
+Russia,2015,21,21,Asia
+Russia,2016,55,55,Asia
+Russia,2017,33,33,Asia
+Rwanda,2008,1,1,Asia
+Rwanda,2009,1,1,Asia
+Rwanda,2010,8,8,Africa
+Rwanda,2011,2,2,Africa
+Rwanda,2012,6,6,Africa
+Rwanda,2013,4,4,Africa
+Rwanda,2014,2,2,Africa
+Rwanda,2016,1,1,Africa
+Rwanda,2017,2,2,Africa
+Saudi Arabia,2007,1,1,Africa
+Saudi Arabia,2009,3,3,Africa
+Saudi Arabia,2011,2,2,Africa
+Saudi Arabia,2012,6,6,Africa
+Saudi Arabia,2013,6,6,Europe
+Saudi Arabia,2014,14,14,Africa
+Saudi Arabia,2015,103,103,Africa
+Saudi Arabia,2016,124,124,Africa
+Saudi Arabia,2017,54,54,Africa
+Senegal,2007,1,1,Africa
+Senegal,2008,2,2,Africa
+Senegal,2009,3,3,Africa
+Senegal,2010,1,1,Africa
+Senegal,2011,4,4,Africa
+Senegal,2012,12,12,Africa
+Senegal,2013,3,3,Africa
+Senegal,2014,2,2,Africa
+Senegal,2015,2,2,Africa
+Serbia,2008,4,4,Africa
+Serbia,2009,3,3,Africa
+Serbia,2010,1,1,Africa
+Serbia,2012,3,3,Africa
+Serbia,2017,1,1,Africa
+Sierra Leone,2016,1,1,Africa
+Sierra Leone,2017,3,3,Asia
+Slovak Republic,2016,1,1,Asia
+Somalia,2007,156,156,Europe
+Somalia,2008,172,172,Europe
+Somalia,2009,122,122,Europe
+Somalia,2010,130,130,Europe
+Somalia,2011,185,185,Europe
+Somalia,2012,325,325,Europe
+Somalia,2013,342,342,Europe
+Somalia,2014,872,872,Europe
+Somalia,2015,418,418,Europe
+Somalia,2016,602,602,Europe
+Somalia,2017,614,614,Asia
+South Africa,2007,2,2,Asia
+South Africa,2008,1,1,Asia
+South Africa,2012,4,4,Asia
+South Africa,2013,13,13,Asia
+South Africa,2014,20,20,Asia
+South Africa,2015,5,5,Asia
+South Africa,2016,27,27,Asia
+South Africa,2017,29,29,Asia
+South Korea,2015,1,1,Asia
+South Korea,2016,1,1,Africa
+South Sudan,2012,5,5,Africa
+South Sudan,2013,13,13,Africa
+South Sudan,2014,40,40,Africa
+South Sudan,2015,54,54,Africa
+South Sudan,2016,59,59,Africa
+South Sudan,2017,54,54,Africa
+Spain,2007,11,11,Africa
+Spain,2008,37,37,Africa
+Spain,2009,21,21,Africa
+Spain,2010,3,3,Africa
+Spain,2012,1,1,Africa
+Spain,2013,5,5,Europe
+Spain,2014,4,4,Europe
+Spain,2015,1,1,Europe
+Spain,2016,3,3,Europe
+Spain,2017,4,4,Europe
+Sri Lanka,2007,132,132,Europe
+Sri Lanka,2008,100,100,Europe
+Sri Lanka,2009,37,37,Europe
+Sri Lanka,2010,3,3,Europe
+Sri Lanka,2012,4,4,Europe
+Sri Lanka,2013,14,14,Europe
+Sri Lanka,2014,16,16,Europe
+Sri Lanka,2015,11,11,Europe
+Sri Lanka,2016,1,1,Asia
+Sri Lanka,2017,41,41,Asia
+Sudan,2007,23,23,Asia
+Sudan,2008,32,32,Asia
+Sudan,2009,26,26,Asia
+Sudan,2010,28,28,Asia
+Sudan,2011,38,38,Asia
+Sudan,2012,40,40,Asia
+Sudan,2013,46,46,Asia
+Sudan,2014,157,157,Asia
+Sudan,2015,158,158,Asia
+Sudan,2016,173,173,Asia
+Sudan,2017,106,106,Asia
+Swaziland,2008,3,3,Asia
+Sweden,2008,1,1,Asia
+Sweden,2009,1,1,Asia
+Sweden,2010,3,3,Asia
+Sweden,2011,1,1,Asia
+Sweden,2012,2,2,Asia
+Sweden,2014,5,5,Asia
+Sweden,2015,32,32,Asia
+Sweden,2016,16,16,Africa
+Sweden,2017,18,18,Africa
+Switzerland,2007,2,2,Africa
+Switzerland,2011,3,3,Africa
+Switzerland,2013,2,2,Africa
+Switzerland,2016,1,1,Africa
+Syria,2008,1,1,Africa
+Syria,2011,49,49,Asia
+Syria,2012,180,180,Asia
+Syria,2013,285,285,Asia
+Syria,2014,331,331,Asia
+Syria,2015,491,491,Asia
+Syria,2016,473,473,Asia
+Syria,2017,243,243,Asia
+Taiwan,2008,1,1,Asia
+Taiwan,2013,2,2,Asia
+Taiwan,2014,1,1,Asia
+Taiwan,2016,1,1,Asia
+Taiwan,2017,1,1,Americas
+Tajikistan,2007,1,1,Americas
+Tajikistan,2009,1,1,Americas
+Tajikistan,2010,1,1,Africa
+Tajikistan,2012,5,5,Africa
+Tajikistan,2014,1,1,Africa
+Tajikistan,2015,3,3,Africa
+Tajikistan,2016,2,2,Africa
+Tajikistan,2017,2,2,Africa
+Tanzania,2008,1,1,Africa
+Tanzania,2010,1,1,Africa
+Tanzania,2013,7,7,Africa
+Tanzania,2014,11,11,Asia
+Tanzania,2015,14,14,Asia
+Tanzania,2016,3,3,Asia
+Tanzania,2017,6,6,Asia
+Thailand,2007,293,293,Asia
+Thailand,2008,200,200,Asia
+Thailand,2009,298,298,Asia
+Thailand,2010,253,253,Asia
+Thailand,2011,182,182,Asia
+Thailand,2012,279,279,Asia
+Thailand,2013,472,472,Asia
+Thailand,2014,423,423,Asia
+Thailand,2015,278,278,Africa
+Thailand,2016,329,329,Africa
+Thailand,2017,179,179,Africa
+Trinidad and Tobago,2010,1,1,Africa
+Trinidad and Tobago,2013,3,3,Africa
+Trinidad and Tobago,2015,1,1,Africa
+Tunisia,2007,1,1,Africa
+Tunisia,2008,2,2,Africa
+Tunisia,2011,3,3,Africa
+Tunisia,2012,3,3,Europe
+Tunisia,2013,29,29,Europe
+Tunisia,2014,23,23,Europe
+Tunisia,2015,17,17,Europe
+Tunisia,2016,12,12,Europe
+Tunisia,2017,4,4,Europe
+Turkey,2007,29,29,Europe
+Turkey,2008,32,32,Europe
+Turkey,2009,13,13,Europe
+Turkey,2010,20,20,Europe
+Turkey,2011,51,51,Europe
+Turkey,2012,188,188,Asia
+Turkey,2013,42,42,Asia
+Turkey,2014,94,94,Asia
+Turkey,2015,422,422,Americas
+Turkey,2016,542,542,Americas
+Turkey,2017,181,181,Americas
+Turkmenistan,2014,1,1,Americas
+Uganda,2007,1,1,Americas
+Uganda,2008,7,7,Americas
+Uganda,2009,2,2,Americas
+Uganda,2010,6,6,Americas
+Uganda,2012,4,4,Americas
+Uganda,2014,6,6,Americas
+Uganda,2015,10,10,Americas
+Uganda,2016,15,15,Americas
+Uganda,2017,13,13,Asia
+Ukraine,2007,1,1,Asia
+Ukraine,2008,1,1,Americas
+Ukraine,2009,2,2,Americas
+Ukraine,2010,4,4,Americas
+Ukraine,2011,3,3,Americas
+Ukraine,2012,8,8,Americas
+Ukraine,2013,5,5,Americas
+Ukraine,2014,895,895,Americas
+Ukraine,2015,637,637,Americas
+Ukraine,2016,61,61,Americas
+Ukraine,2017,61,61,Asia
+United Arab Emirates,2010,2,2,Asia
+United Arab Emirates,2013,1,1,Asia
+United Arab Emirates,2014,2,2,Asia
+United Kingdom,2007,20,20,Asia
+United Kingdom,2008,39,39,Asia
+United Kingdom,2009,23,23,Asia
+United Kingdom,2010,57,57,Asia
+United Kingdom,2011,47,47,Asia
+United Kingdom,2012,55,55,Asia
+United Kingdom,2013,137,137,Asia
+United Kingdom,2014,103,103,Asia
+United Kingdom,2015,114,114,Africa
+United Kingdom,2016,105,105,Africa
+United Kingdom,2017,122,122,Africa
+United States,2007,8,8,Africa
+United States,2008,18,18,Africa
+United States,2009,11,11,Africa
+United States,2010,17,17,Africa
+United States,2011,10,10,Africa
+United States,2012,20,20,Africa
+United States,2013,20,20,Africa
+United States,2014,29,29,Africa
+United States,2015,38,38,Africa
+United States,2016,64,64,Africa
+United States,2017,65,65,Africa
+Uruguay,2016,1,1,Africa
+Uzbekistan,2009,2,2,Africa
+Uzbekistan,2015,1,1,Africa
+Venezuela,2007,2,2,Africa
+Venezuela,2008,1,1,Africa
+Venezuela,2009,3,3,Asia
+Venezuela,2012,1,1,Asia
+Venezuela,2013,1,1,Africa
+Venezuela,2014,4,4,Europe
+Venezuela,2015,3,3,Europe
+Venezuela,2016,6,6,Europe
+Venezuela,2017,17,17,Europe
+Vietnam,2017,2,2,Europe
+West Bank and Gaza Strip,2007,88,88,Europe
+West Bank and Gaza Strip,2008,63,63,Europe
+West Bank and Gaza Strip,2009,10,10,Europe
+West Bank and Gaza Strip,2010,11,11,Europe
+West Bank and Gaza Strip,2011,20,20,Europe
+West Bank and Gaza Strip,2012,23,23,Europe
+West Bank and Gaza Strip,2013,64,64,Europe
+West Bank and Gaza Strip,2014,133,133,Europe
+West Bank and Gaza Strip,2015,246,246,Europe
+West Bank and Gaza Strip,2016,157,157,Europe
+West Bank and Gaza Strip,2017,83,83,Europe
+Western Sahara,2007,1,1,Europe
+Yemen,2007,7,7,Europe
+Yemen,2008,22,22,Europe
+Yemen,2009,23,23,Asia
+Yemen,2010,112,112,Asia
+Yemen,2011,118,118,Asia
+Yemen,2012,312,312,Asia
+Yemen,2013,425,425,Asia
+Yemen,2014,763,763,Asia
+Yemen,2015,664,664,Asia
+Yemen,2016,525,525,Asia
+Yemen,2017,226,226,Asia
+Zambia,2017,2,2,Asia
+Zimbabwe,2007,1,1,Asia
+Zimbabwe,2008,5,5,Africa
+Zimbabwe,2010,1,1,Africa
+Zimbabwe,2011,1,1,Africa
+Zimbabwe,2013,3,3,Africa
+Zimbabwe,2014,1,1,Africa
+Zimbabwe,2017,3,3,Africa
