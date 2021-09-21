@@ -3,7 +3,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {"text": "Global Terrorism from 2007-2017", "anchor": "middle"},
     "data": {
-      "url": "https://raw.githubusercontent.com/wenqii09/FIT3179_A2/main/data/type.csv"
+      "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/type.csv"
     },
     "vconcat": [
       {
@@ -11,19 +11,20 @@
           "color": {
             "condition": {
               "selection": "brush",
-              "title": "Crime Type",
-              "field": "crime type",
+              "title": "Attack Type",
+              "field": "Attack Type",
               "type": "nominal",
               "scale": {
                 "domain": [
-                  "assault",
-                  "burglary",
-                  "fraud",
-                  "murder",
-                  "rape",
-                  "robbery",
-                  "sexual offences",
-                  "stealing"
+                  "Armed Assault",
+                  "Assassination",
+                  "Bombing/Explosion",
+                  "Facility/Infrastructure Attack",
+                  "Hijacking",
+                  "Hostile Taking (Barricade Incident)",
+                  "Hostile Taking (Kidnapping)",
+                  "Unarmed Assault",
+                  "Unknown"
                 ],
                 "scheme": "tableau20"
               }
