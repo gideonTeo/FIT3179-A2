@@ -21,12 +21,12 @@
                   "Bombing/Explosion",
                   "Facility/Infrastructure Attack",
                   "Hijacking",
-                  "Hostile Taking (Barricade Incident)",
-                  "Hostile Taking (Kidnapping)",
+                  "Hostage Taking (Barricade Incident)",
+                  "Hostage Taking (Kidnapping)",
                   "Unarmed Assault",
                   "Unknown"
                 ],
-                "scheme": "tableau20"
+                "scheme": "tableau10"
               }
             },
             "value": "lightgray"
@@ -38,8 +38,8 @@
           },
           "y": {
             "aggregate": "sum",
-            "title": "Total Crimes Type",
-            "field": "value",
+            "title": "Total Attack",
+            "field": "Total Attack",
             "axis": {"grid": false}
           }
         },
@@ -56,33 +56,34 @@
             "color": {
               "condition": {
                 "selection": "click",
-                "field": "crime type",
+                "field": "Attack Type",
                 "scale": {
                   "domain": [
-                    "assault",
-                  "burglary",
-                  "fraud",
-                  "murder",
-                  "rape",
-                  "robbery",
-                  "sexual offences",
-                  "stealing"
+                    "Armed Assault",
+                    "Assassination",
+                    "Bombing/Explosion",
+                    "Facility/Infrastructure Attack",
+                    "Hijacking",
+                    "Hostage Taking (Barricade Incident)",
+                    "Hostage Taking (Kidnapping)",
+                    "Unarmed Assault",
+                    "Unknown"
                   ],
-                  "scheme": "tableau20"
+                  "scheme": "tableau10"
                 }
               },
               "value": "lightgray"
             },
             "x": {
               "aggregate": "sum",
-              "field": "value",
-              "title": "Count of crime type",
+              "field": "Total Attack",
+              "title": "Number of Attack",
               "axis": {"grid": false}
             },
-            "y": {"title": "Crime Type", 
-             "sort": "-x", "field": "crime type"}
+            "y": {"title": "Attack Type", 
+             "sort": "-x", "field": "Attack Type"}
           },
-          "width": 350,
+          "width": 360,
           "mark": {"type": "bar", "tooltip": true},
           "selection": {"click": {"encodings": ["color"], "type": "multi"}},
           "transform": [{"filter": {"selection": "brush"}}]
@@ -93,9 +94,9 @@
               "align": "left",
               "baseline": "top",
               "dx": -8,
-              "dy": -75,
+              "dy": -83,
               "x": "width",
-              "text": "57,843",
+              "text": "52,557",
               "fontSize": 9
             }
           }, 
@@ -104,10 +105,10 @@
               "type": "text",
               "align": "left",
               "baseline": "top",
-              "dx": -287,
-              "dy": -55,
+              "dx": -202,
+              "dy": -63,
               "x": "width",
-              "text": "10,126",
+              "text": "23,150",
               "fontSize": 9
             }
           }, 
@@ -116,10 +117,10 @@
               "type": "text",
               "align": "left",
               "baseline": "top",
-              "dx": -300,
-              "dy": -35,
+              "dx": -304,
+              "dy": -43,
               "x": "width",
-              "text": "8,063",
+              "text": "7,235",
               "fontSize": 9
             }
           },
@@ -128,10 +129,10 @@
               "type": "text",
               "align": "left",
               "baseline": "top",
-              "dx": -302,
-              "dy": -13,
+              "dx": -311,
+              "dy": -24,
               "x": "width",
-              "text": "7,752",
+              "text": "6,087",
               "fontSize": 9
             }
           }, 
@@ -140,10 +141,10 @@
               "type": "text",
               "align": "left",
               "baseline": "top",
-              "dx": -340,
-              "dy": 6,
+              "dx": -318,
+              "dy": -4,
               "x": "width",
-              "text": "1,317",
+              "text": "5,087",
               "fontSize": 9
             }
           }, 
@@ -152,10 +153,10 @@
               "type": "text",
               "align": "left",
               "baseline": "top",
-              "dx": -342,
-              "dy": 26,
+              "dx": -324,
+              "dy": 16,
               "x": "width",
-              "text": "886",
+              "text": "4,362",
               "fontSize": 9
             }
           }, 
@@ -164,10 +165,10 @@
               "type": "text",
               "align": "left",
               "baseline": "top",
-              "dx": -345,
-              "dy": 47,
+              "dx": -350,
+              "dy": 36,
               "x": "width",
-              "text": "454",
+              "text": "487",
               "fontSize": 9
             }
           }, 
@@ -176,10 +177,22 @@
               "type": "text",
               "align": "left",
               "baseline": "top",
-              "dx": -346,
-              "dy": 66,
+              "dx": -352,
+              "dy": 57,
               "x": "width",
-              "text": "23",
+              "text": "340",
+              "fontSize": 9
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "left",
+              "baseline": "top",
+              "dx": -352,
+              "dy": 78,
+              "x": "width",
+              "text": "278",
               "fontSize": 9
             }
           }
