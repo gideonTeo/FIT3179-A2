@@ -43,8 +43,8 @@
       }
     ],
     "transform": [
-      {"filter": "datum.Cases <= 300"},
-      {"filter": "datum.Fatalities <= 300"},
+      {"filter": "datum.Cases >= 0"},
+      {"filter": "datum.Fatalities >= 0"},
       {"filter": "datum.Year == Year_above"},
       {"filter": "Continent_selection == null || datum.Continent == Continent_selection"}
     ],
@@ -54,13 +54,13 @@
         "type": "quantitative",
         "title": "Terrorism Cases",
         "axis": {"tickCount": 5, "grid": false},
-        "scale": {"domain": [0, 300]}
+        "scale": {"domain": [0, 4000]}
       },
       "y": {
         "field": "Fatalities",
         "type": "quantitative",
         "axis": {"tickCount": 5,  "grid": false},
-        "scale": {"domain": [0, 300]}
+        "scale": {"domain": [0, 4000]}
       }
     },
     "layer": [
