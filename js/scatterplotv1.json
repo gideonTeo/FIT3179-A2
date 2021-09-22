@@ -2,14 +2,14 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 800,
     "height": 600,
-    "title": "Fatalities from Terrorism per Country from 2007 to 2017",
+    "title": "Terrorism Cases per Country from 2007 - 2017",
     "data": {
-      "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"
+      "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/fatal.csv"
     },
     "params": [
       {
-        "name": "Year_Above",
-        "value": 0,
+        "name": "Year_above",
+        "value": 2007,
         "bind": {
           "input": "range",
           "min": 2007,
@@ -32,10 +32,10 @@
           ],
           "labels":[
             "Show All",
-            "Africa",
-            "Americas",
-            "Asia",
-            "Europe",
+            "Africa", 
+            "Americas", 
+            "Asia", 
+            "Europe", 
             "Oceania"
           ],
           "name": "Continent Selection: "
@@ -43,28 +43,24 @@
       }
     ],
     "transform": [
-      {"filter": "datum.Active > 0"},
-      {"filter": "datum.Deaths > 0"},
-      {"filter": "datum.Population > Population_Above"},
-      {"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
-      {
-        "calculate": "datum.Confirmed/datum.Population * 10000",
-        "as": "Cases per 10,000 Population"
-      }
+      {"filter": "datum.Cases >= 0"},
+      {"filter": "datum.Fatalities >= 0"},
+      {"filter": "datum.Year == Year_above"},
+      {"filter": "Continent_selection == null || datum.Continent == Continent_selection"}
     ],
     "encoding": {
       "x": {
-        "field": "Confirmed",
+        "field": "Cases", 
         "type": "quantitative",
-        "title": "Confirmed Cases",
-        "axis": {"tickCount": 7},
-        "scale": {"type": "log", "domain": [1, 10000000]}
+        "title": "Terrorism Cases",
+        "axis": {"tickCount": 5, "grid": false},
+        "scale": {"domain": [0, 4000]}
       },
       "y": {
-        "field": "Deaths",
+        "field": "Fatalities",
         "type": "quantitative",
-        "axis": {"tickCount": 6},
-        "scale": {"type": "log", "domain": [1, 1000000]}
+        "axis": {"tickCount": 5,  "grid": false},
+        "scale": {"domain": [0, 4000]}
       }
     },
     "layer": [
@@ -78,26 +74,15 @@
         },
         "mark": "circle",
         "encoding": {
-          "size": {
-            "field": "Population",
-            "type": "quantitative",
-            "scale": {
-              "type": "threshold",
-              "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
-              "range": [10, 50, 150, 200, 300, 400]
-            },
-            "legend": {"format": ".1s"}
-          },
           "color": {
             "field": "Continent",
             "type": "nominal",
             "scale": {
               "domain": [
-                "North America",
-                "South America",
-                "Europe",
-                "Africa",
-                "Asia",
+                "Africa", 
+                "Americas", 
+                "Asia", 
+                "Europe", 
                 "Oceania"
               ],
               "range": [
@@ -105,8 +90,7 @@
                 "#984ea3",
                 "#ff7f00",
                 "#a6cee3",
-                "#377eb8",
-                "#a65628"
+                "#377eb8"
               ]
             }
           },
@@ -116,15 +100,9 @@
           },
           "tooltip": [
             {"field": "Country", "type": "nominal"},
-            {"field": "Confirmed", "type": "quantitative", "format": ","},
-            {"field": "Active", "type": "quantitative", "format": ","},
-            {"field": "Deaths", "type": "quantitative", "format": ","},
-            {"field": "Recovered", "type": "quantitative", "format": ","},
-            {
-              "field": "Cases per 10,000 Population",
-              "type": "quantitative",
-              "format": ".2f"
-            }
+            {"field": "Fatalities", "type": "quantitative", "format": ","},
+            {"field": "Cases", "type": "quantitative", "format": ","},
+            {"field": "Year", "type": "quantitative"}
           ]
         }
       },
@@ -136,21 +114,8 @@
           "dx": -12,
           "fontSize": 11.5,
           "fontStyle": "italic"
-        },
-        "encoding": {
-          "tooltip": [
-            {"field": "Country", "type": "nominal"},
-            {"field": "Confirmed", "type": "quantitative", "format": ","},
-            {"field": "Active", "type": "quantitative", "format": ","},
-            {"field": "Deaths", "type": "quantitative", "format": ","},
-            {"field": "Recovered", "type": "quantitative", "format": ","},
-            {
-              "field": "Cases per 10,000 Population",
-              "type": "quantitative",
-              "format": ".2f"
-            }
-          ]
         }
       }
-    ]
+    ],
+    "config": {"background":"#fff5e8"}
   }
