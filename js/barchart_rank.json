@@ -17,7 +17,14 @@
         "name": "Continent_selection",
         "bind": {
           "input": "select",
-          "options": [null, "Africa", "Americas", "Asia", "Europe", "Oceania"],
+          "options": [
+            null, 
+            "Africa", 
+            "Americas", 
+            "Asia", 
+            "Europe", 
+            "Oceania"
+          ],
           "labels": [
             "Show All",
             "Africa",
