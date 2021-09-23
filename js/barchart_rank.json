@@ -45,7 +45,7 @@
 
       {
         "aggregate": [
-          {"op": "sum", "field": "Terrorism Cases", "as": "Terrorism Cases"}
+          {"op": "sum", "field": "Cases", "as": "Cases"}
         ],
         "groupby": ["Country"]
       },
@@ -53,7 +53,7 @@
       {
         "joinaggregate": [{
           "op": "sum",
-          "field": "Terrorism Cases",
+          "field": "Cases",
           "as": "Global Terrorism Cases"
         }]
       },
@@ -62,7 +62,7 @@
           "op": "rank",
           "as": "rank"
         }],
-        "sort": [{ "field": "Terrorism Cases", "order": "descending" }]
+        "sort": [{ "field": "Cases", "order": "descending" }]
       }, {
         "filter": "datum.rank <= 10"}
     ],
@@ -76,7 +76,7 @@
           "title": "Country",
           "sort": "-x"
         },
-        "x": {"field": "Terrorism Cases", "type": "quantitative"},
+        "x": {"field": "Cases", "type": "quantitative"},
         "color":{
           "condition": [{"test": "datum['rank'] == 1", "value": "#cc4c02"}],
           "value": "#fecd68"
