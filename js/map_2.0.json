@@ -11,14 +11,14 @@
     "layer": [
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/dtan0032/FIT3179_A2/main/js/ne_110m_admin_0_countries.json.json",
+          "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/js/ne_110m_admin_0_countries.json",
           "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
         },
         "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "darkgrey"}
       },
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/dtan0032/FIT3179_A2/main/js/ne_110m_admin_0_countries.json.json",
+          "url": "hhttps://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/js/ne_110m_admin_0_countries.json",
           "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
         },
         "transform": [
@@ -26,7 +26,7 @@
             "lookup": "properties.NAME",
             "from": {
               "data": {
-                "url": "https://raw.githubusercontent.com/dtan0032/FIT3179_A2/main/data/mean_rates(country).csv"
+                "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/sum.csv"
               },
               "key": "Country",
               "fields": ["mean_rates"]

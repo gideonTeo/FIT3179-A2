@@ -1,157 +1,157 @@
-"Category","x"
-"Afghanistan",11916
-"Albania",11
-"Algeria",569
-"Angola",11
-"Argentina",18
-"Armenia",7
-"Australia",41
-"Austria",17
-"Azerbaijan",12
-"Bahamas",1
-"Bahrain",166
-"Bangladesh",975
-"Belarus",7
-"Belgium",14
-"Belize",1
-"Benin",1
-"Bhutan",5
-"Bolivia",7
-"Bosnia-Herzegovina",19
-"Brazil",16
-"Bulgaria",13
-"Burkina Faso",49
-"Burundi",264
-"Cambodia",4
-"Cameroon",313
-"Canada",44
-"Central African Republic",271
-"Chad",58
-"Chile",86
-"China",113
-"Colombia",1389
-"Croatia",5
-"Cuba",1
-"Cyprus",21
-"Czech Republic",19
-"Democratic Republic of the Congo",731
-"Denmark",8
-"Djibouti",3
-"Dominican Republic",3
-"East Timor",3
-"Ecuador",13
-"Egypt",1994
-"Equatorial Guinea",1
-"Eritrea",7
-"Estonia",3
-"Ethiopia",77
-"Finland",16
-"France",251
-"Gabon",4
-"Georgia",81
-"Germany",173
-"Ghana",2
-"Greece",450
-"Guatemala",7
-"Guinea",5
-"Guinea-Bissau",2
-"Guyana",4
-"Haiti",3
-"Honduras",14
-"Hong Kong",1
-"Hungary",6
-"Iceland",2
-"India",7703
-"Indonesia",240
-"Iran",114
-"Iraq",22576
-"Ireland",163
-"Israel",823
-"Italy",69
-"Ivory Coast",50
-"Jamaica",4
-"Japan",21
-"Jordan",29
-"Kazakhstan",17
-"Kenya",586
-"Kosovo",51
-"Kuwait",4
-"Kyrgyzstan",14
-"Laos",8
-"Latvia",2
-"Lebanon",553
-"Lesotho",2
-"Liberia",4
-"Libya",2235
-"Macedonia",20
-"Madagascar",7
-"Malawi",1
-"Malaysia",58
-"Maldives",20
-"Mali",532
-"Malta",5
-"Mauritania",11
-"Mexico",99
-"Moldova",3
-"Montenegro",4
-"Morocco",8
-"Mozambique",140
-"Myanmar",326
-"Nepal",828
-"Netherlands",16
-"New Zealand",7
-"Nicaragua",2
-"Niger",114
-"Nigeria",3748
-"Norway",5
-"Pakistan",12066
-"Panama",2
-"Papua New Guinea",9
-"Paraguay",79
-"Peru",58
-"Philippines",4468
-"Poland",4
-"Portugal",2
-"Qatar",1
-"Republic of the Congo",16
-"Romania",1
-"Russia",1264
-"Rwanda",27
-"Saudi Arabia",313
-"Senegal",30
-"Serbia",12
-"Sierra Leone",4
-"Slovak Republic",1
-"Somalia",3938
-"South Africa",101
-"South Korea",2
-"South Sudan",225
-"Spain",90
-"Sri Lanka",359
-"Sudan",827
-"Swaziland",3
-"Sweden",79
-"Switzerland",8
-"Syria",2053
-"Taiwan",6
-"Tajikistan",16
-"Tanzania",43
-"Thailand",3186
-"Trinidad and Tobago",5
-"Tunisia",94
-"Turkey",1614
-"Turkmenistan",1
-"Uganda",64
-"Ukraine",1678
-"United Arab Emirates",5
-"United Kingdom",822
-"United States",300
-"Uruguay",1
-"Uzbekistan",3
-"Venezuela",38
-"Vietnam",2
-"West Bank and Gaza Strip",898
-"Western Sahara",1
-"Yemen",3197
-"Zambia",2
-"Zimbabwe",15
+Country,Cases
+Afghanistan,11916
+Albania,11
+Algeria,569
+Angola,11
+Argentina,18
+Armenia,7
+Australia,41
+Austria,17
+Azerbaijan,12
+Bahamas,1
+Bahrain,166
+Bangladesh,975
+Belarus,7
+Belgium,14
+Belize,1
+Benin,1
+Bhutan,5
+Bolivia,7
+Bosnia-Herzegovina,19
+Brazil,16
+Bulgaria,13
+Burkina Faso,49
+Burundi,264
+Cambodia,4
+Cameroon,313
+Canada,44
+Central African Republic,271
+Chad,58
+Chile,86
+China,113
+Colombia,1389
+Croatia,5
+Cuba,1
+Cyprus,21
+Czech Republic,19
+Democratic Republic of the Congo,731
+Denmark,8
+Djibouti,3
+Dominican Republic,3
+East Timor,3
+Ecuador,13
+Egypt,1994
+Equatorial Guinea,1
+Eritrea,7
+Estonia,3
+Ethiopia,77
+Finland,16
+France,251
+Gabon,4
+Georgia,81
+Germany,173
+Ghana,2
+Greece,450
+Guatemala,7
+Guinea,5
+Guinea-Bissau,2
+Guyana,4
+Haiti,3
+Honduras,14
+Hong Kong,1
+Hungary,6
+Iceland,2
+India,7703
+Indonesia,240
+Iran,114
+Iraq,22576
+Ireland,163
+Israel,823
+Italy,69
+Ivory Coast,50
+Jamaica,4
+Japan,21
+Jordan,29
+Kazakhstan,17
+Kenya,586
+Kosovo,51
+Kuwait,4
+Kyrgyzstan,14
+Laos,8
+Latvia,2
+Lebanon,553
+Lesotho,2
+Liberia,4
+Libya,2235
+Macedonia,20
+Madagascar,7
+Malawi,1
+Malaysia,58
+Maldives,20
+Mali,532
+Malta,5
+Mauritania,11
+Mexico,99
+Moldova,3
+Montenegro,4
+Morocco,8
+Mozambique,140
+Myanmar,326
+Nepal,828
+Netherlands,16
+New Zealand,7
+Nicaragua,2
+Niger,114
+Nigeria,3748
+Norway,5
+Pakistan,12066
+Panama,2
+Papua New Guinea,9
+Paraguay,79
+Peru,58
+Philippines,4468
+Poland,4
+Portugal,2
+Qatar,1
+Republic of the Congo,16
+Romania,1
+Russia,1264
+Rwanda,27
+Saudi Arabia,313
+Senegal,30
+Serbia,12
+Sierra Leone,4
+Slovak Republic,1
+Somalia,3938
+South Africa,101
+South Korea,2
+South Sudan,225
+Spain,90
+Sri Lanka,359
+Sudan,827
+Swaziland,3
+Sweden,79
+Switzerland,8
+Syria,2053
+Taiwan,6
+Tajikistan,16
+Tanzania,43
+Thailand,3186
+Trinidad and Tobago,5
+Tunisia,94
+Turkey,1614
+Turkmenistan,1
+Uganda,64
+Ukraine,1678
+United Arab Emirates,5
+United Kingdom,822
+United States,300
+Uruguay,1
+Uzbekistan,3
+Venezuela,38
+Vietnam,2
+West Bank and Gaza Strip,898
+Western Sahara,1
+Yemen,3197
+Zambia,2
+Zimbabwe,15
