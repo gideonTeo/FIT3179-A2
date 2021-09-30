@@ -9,7 +9,7 @@
     "transform": [
       {
         "aggregate": [
-          {"op": "sum", "field": "Terrorism Cases", "as": "Terrorism Case"}
+          {"op": "sum", "field": "Cases", "as": "Terrorism Case"}
         ],
         "groupby": ["Year"]
       }
@@ -32,6 +32,7 @@
 
         "y": {"field": "Terrorism Case", 
           "type": "quantitative",
+          "format": ",",
           "axis": {"grid": false}},
         "color":{"value":"black"}}
       }

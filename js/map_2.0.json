@@ -43,8 +43,8 @@
                 "title": "Total Terrorism Cases",
                 "scale": {
                   "type": "threshold",
-                  "domain": [20, 50, 100, 200, 500, 5000, 10000],
-                  "range": ["#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#6e0000", "#45040a"]
+                  "domain": [20, 50, 100, 200, 500, 5000, 10000, 22000],
+                  "range": ["#ffffcc", "#ffeda0", "#fed976", "#feb24c", "#fd8d3c", "#fc4e2a", "#e31a1c", "#bd0026", "#800026"]
                 }
               },
               "tooltip": [
@@ -66,7 +66,7 @@
       },
       {
         "data": {"values": [{}]},
-        "encoding": {"latitude": {"datum": -25}, "longitude": {"datum": -175}},
+        "encoding": {"latitude": {"datum": -43}, "longitude": {"datum": -175}},
         "layer": [
           {
             "mark": {
