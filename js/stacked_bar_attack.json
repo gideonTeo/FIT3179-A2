@@ -3,7 +3,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {"text": "Global Terrorism from 2007-2017", "anchor": "middle"},
     "data": {
-      "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/type.csv"
+      "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/att_type.csv"
     },
     "vconcat": [
       {
@@ -40,6 +40,7 @@
             "aggregate": "sum",
             "title": "Total Attack",
             "field": "Total Attack",
+            "format": ",",
             "axis": {"grid": false}
           }
         },
@@ -78,6 +79,7 @@
               "aggregate": "sum",
               "field": "Total Attack",
               "title": "Number of Attack",
+              "format": ",",
               "axis": {"grid": false}
             },
             "y": {"title": "Attack Type", 
