@@ -1,0 +1,12 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    "data": {
+        "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/attack_fatal.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "Attack Type", "type": "nominal", "axis": {"labelAngle": 0}},
+      "y": {"field": "Total No. of Fatalities", "type": "quantitative"}
+    }
+  }
