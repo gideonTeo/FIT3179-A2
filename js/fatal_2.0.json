@@ -4,12 +4,12 @@
     "width": 700,
     "height": 300,
     "data": {
-      "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/continent.csv"
+      "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/iraq_fatal.csv"
     },
     "transform": [
       {
         "aggregate": [
-          {"op": "sum", "field": "Cases", "as": "Terrorism Case"}
+          {"op": "sum", "field": "Fatalities", "as": "Fatalities"}
         ],
         "groupby": ["Year"]
       }
@@ -30,7 +30,7 @@
             "title":"Year"
           },
 
-        "y": {"field": "Terrorism Case", 
+        "y": {"field": "Fatalities", 
           "type": "quantitative",
           "format": ",",
           "axis": {"grid": false}},
