@@ -1,12 +1,59 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A simple bar chart with embedded data.",
-    "data": {
-        "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/attack_fatal.csv"
+    "width": 650,
+    "height": 400,
+    "title": {
+      "text": "Top 10 Global Terrorism Ranking (2007 - 2017)",
+      "anchor":"middle",
+      "fontSize":20
     },
-    "mark": "bar",
-    "encoding": {
-      "x": {"field": "Attack Type", "type": "nominal", "axis": {"labelAngle": 0}},
-      "y": {"field": "Total No. of Fatalities", "type": "quantitative"}
-    }
+
+    "data": {
+      "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/attack_fatal_2.0.csv"
+    },
+    
+    "transform": [
+      {
+        "aggregate": [
+          {"op": "sum", "field": "Cases", "as": "Cases"}
+        ],
+        "groupby": ["Country"]
+      },
+
+      {
+        "joinaggregate": [{
+          "op": "sum",
+          "field": "Cases",
+          "as": "Global Terrorism Cases"
+        }]
+      },
+       {
+        "window": [{
+          "op": "rank",
+          "as": "rank"
+        }],
+        "sort": [{ "field": "Cases", "order": "descending" }]
+      }, {
+        "filter": "datum.rank <= 10"}
+    ],
+    "layer":[
+      {
+      "mark": {"type": "bar", "tooltip": true},
+      "encoding": {
+        "y": {
+          "field": "Country",
+          "type": "nominal",
+          "title": "Country",
+          "sort": "-x"
+        },
+        "x": {"field": "Cases", "type": "quantitative", "format": ","},
+        "color":{
+          "condition": [{"test": "datum['rank'] == 1", "value": "#cc4c02"}],
+          "value": "#fecd68"
+          }
+        }
+      }
+      ],
+    "config": {"background":"#fff5e8"}
   }
+  
