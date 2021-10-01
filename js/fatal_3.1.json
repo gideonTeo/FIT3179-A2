@@ -3,7 +3,7 @@
     "width": 650,
     "height": 400,
     "title": {
-      "text": "Total Fatalities for Each Type of Attack",
+      "text": "Average Fatalities for Each Type of Attack",
       "anchor":"middle",
       "fontSize":20
     },
@@ -15,14 +15,14 @@
     "transform": [
       {
         "aggregate": [
-          {"op": "sum", "field": "Fatalities", "as": "Fatalities"}
+          {"op": "average", "field": "Fatalities", "as": "Fatalities"}
         ],
         "groupby": ["Attack Type"]
       },
 
       {
         "joinaggregate": [{
-          "op": "sum",
+          "op": "average",
           "field": "Fatalities",
           "as": "Iraq Terrorism Fatalities"
         }]
