@@ -41,11 +41,110 @@
         "mark": {
           "type": "text",
           "align": "right",
-          "dx": 100,
+          "dx": 62,
           "dy": -138,
-          "text": "Age group of ",
+          "text": "Year:",
           "color": "black",
           "fontSize": 15
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "dx": 65,
+          "dy": -138,
+          "text": "2014",
+          "color": "indianred",
+          "fontSize": 15
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "right",
+          "dx": 62,
+          "dy": -120,
+          "text": "Terrorism Cases: ",
+          "color": "black",
+          "fontSize": 15
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "dx": 65,
+          "dy": -120,
+          "text": "16,903",
+          "color": "indianred",
+          "fontSize": 15
+        }
+      },
+      {
+        "mark": {
+              "type": "text",
+              "align": "left",
+              "dx": 30,
+              "dy": 50,
+              "text": "There is an obvious increasing",
+              "fontSize": 15,
+              "color": "grey"
+        }
+      },
+      {
+        "mark": {
+              "type": "text",
+              "align": "left",
+              "dx": 30,
+              "dy": 70,
+              "text": " in terrorism case from 2011 to",
+              "fontSize": 15,
+              "color": "grey"
+        }
+      },
+      {
+        "mark": {
+              "type": "text",
+              "align": "left",
+              "dx": 30,
+              "dy": 90,
+              "text": "2014 and decreases from 2014",
+              "fontSize": 15,
+              "color": "grey"
+        }
+      },
+      {
+        "mark": {
+              "type": "text",
+              "align": "left",
+              "dx": 30,
+              "dy": 110,
+              "text": "to 2017.",
+              "fontSize": 15,
+              "color": "grey"
+        }
+      },
+      {
+        "mark": {
+              "type": "text",
+              "align": "left",
+              "dx": -240,
+              "dy": 25,
+              "text": "There is a plateau from",
+              "fontSize": 15,
+              "color": "grey"
+        }
+      },
+      {
+        "mark": {
+              "type": "text",
+              "align": "left",
+              "dx": -240,
+              "dy": 45,
+              "text": "2008 to 2011.",
+              "fontSize": 15,
+              "color": "grey"
         }
       }
     ],
