@@ -14,7 +14,8 @@
         "groupby": ["Year"]
       }
     ],
-    "layer":[{
+    "layer":[
+      {
       "mark": {"type":"line","point": {
         "filled": false,
         "fill": "black"},
@@ -35,6 +36,17 @@
           "format": ",",
           "axis": {"grid": false}},
         "color":{"value":"black"}}
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "right",
+          "dx": 100,
+          "dy": -138,
+          "text": "Age group of ",
+          "color": "black",
+          "fontSize": 15
+        }
       }
     ],
     "config": {"background":"#fff5e8"}
