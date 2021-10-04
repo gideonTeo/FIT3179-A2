@@ -1,12 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 650,
+    "width": 400,
     "height": 400,
-    "title": {
-      "text": "Total Fatalities for Each Type of Attack",
-      "anchor":"middle",
-      "fontSize":20
-    },
 
     "data": {
       "url": "https://raw.githubusercontent.com/gideonTeo/FIT3179-A2/main/data/attack_fatal_2.0.csv"
@@ -45,7 +40,17 @@
           "title": "Attack Type",
           "sort": "-x"
         },
-        "x": {"field": "Fatalities", "type": "quantitative", "format": ","},
+        "x": {
+          "axis": {
+            "labels": true,
+            "tickCount": 4,
+            "ticks": true,
+            "grid": false
+          },
+          "field": "Fatalities", 
+          "type": "quantitative", 
+          "format": ","
+        },
         "color":{
           "condition": [{"test": "datum['rank'] == 1", "value": "#cc4c02"}],
           "value": "#fecd68"

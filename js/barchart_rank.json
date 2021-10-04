@@ -76,7 +76,14 @@
           "title": "Country",
           "sort": "-x"
         },
-        "x": {"field": "Cases", "type": "quantitative", "format": ","},
+        "x": {
+          "axis": {
+            "grid": false
+          },
+          "field": "Cases", 
+          "type": "quantitative", 
+          "format": ","
+        },
         "color":{
           "condition": [{"test": "datum['rank'] == 1", "value": "#cc4c02"}],
           "value": "#fecd68"
